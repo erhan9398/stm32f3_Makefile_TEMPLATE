@@ -711,8 +711,6 @@ Discarded input sections
                 0x00000000       0x20 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
  .text.RCC_BackupResetCmd
                 0x00000000       0x20 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
- .text.RCC_AHBPeriphClockCmd
-                0x00000000       0x40 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
  .text.RCC_APB2PeriphClockCmd
                 0x00000000       0x40 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
  .text.RCC_APB1PeriphClockCmd
@@ -733,17 +731,6 @@ Discarded input sections
                 0x00000000       0x38 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
  .text.RCC_ClearITPendingBit
                 0x00000000       0x20 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
- .debug_info    0x00000000      0xb83 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
- .debug_abbrev  0x00000000      0x1e7 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
- .debug_aranges
-                0x00000000      0x158 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
- .debug_ranges  0x00000000      0x148 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
- .debug_line    0x00000000      0x5e3 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
- .debug_str     0x00000000      0x91e Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
- .comment       0x00000000       0x6f Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
- .debug_frame   0x00000000      0x634 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
- .ARM.attributes
-                0x00000000       0x39 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
  .text          0x00000000        0x0 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
  .data          0x00000000        0x0 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
  .bss           0x00000000        0x0 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_flash.o
@@ -1688,8 +1675,6 @@ Discarded input sections
  .bss           0x00000000        0x0 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
  .text.GPIO_DeInit
                 0x00000000      0x11c Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .text.GPIO_Init
-                0x00000000      0x138 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
  .text.GPIO_StructInit
                 0x00000000       0x34 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
  .text.GPIO_PinLockConfig
@@ -1702,27 +1687,12 @@ Discarded input sections
                 0x00000000       0x38 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
  .text.GPIO_ReadOutputData
                 0x00000000       0x1c Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .text.GPIO_SetBits
-                0x00000000       0x20 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .text.GPIO_ResetBits
-                0x00000000       0x20 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
  .text.GPIO_WriteBit
                 0x00000000       0x30 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
  .text.GPIO_Write
                 0x00000000       0x20 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
  .text.GPIO_PinAFConfig
                 0x00000000       0x94 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .debug_info    0x00000000      0x628 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .debug_abbrev  0x00000000      0x1a9 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .debug_aranges
-                0x00000000       0x80 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .debug_ranges  0x00000000       0x70 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .debug_line    0x00000000      0x303 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .debug_str     0x00000000      0x4fe Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .comment       0x00000000       0x6f Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .debug_frame   0x00000000      0x214 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
- .ARM.attributes
-                0x00000000       0x39 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
  .text          0x00000000        0x0 Debug/src/main.o
  .data          0x00000000        0x0 Debug/src/main.o
  .bss           0x00000000        0x0 Debug/src/main.o
@@ -1870,200 +1840,218 @@ LOAD /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1
                 0x08000000                g_pfnVectors
                 0x08000188                . = ALIGN (0x4)
 
-.text           0x08000188      0x398
+.text           0x08000188      0x5e0
                 0x08000188                . = ALIGN (0x4)
  *(.text)
  .text          0x08000188       0x5c /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
  *(.text*)
- .text.main     0x080001e4        0x8 Debug/src/main.o
-                0x080001e4                main
+ .text.RCC_AHBPeriphClockCmd
+                0x080001e4       0x40 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                0x080001e4                RCC_AHBPeriphClockCmd
+ .text.GPIO_Init
+                0x08000224      0x138 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                0x08000224                GPIO_Init
+ .text.GPIO_SetBits
+                0x0800035c       0x20 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                0x0800035c                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x0800037c       0x20 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                0x0800037c                GPIO_ResetBits
+ .text.main     0x0800039c       0x50 Debug/src/main.o
+                0x0800039c                main
+ .text.Delay_us
+                0x080003ec       0x28 Debug/src/main.o
+                0x080003ec                Delay_us
+ .text.Delay_ms
+                0x08000414       0x20 Debug/src/main.o
+                0x08000414                Delay_ms
  .text.NMI_Handler
-                0x080001ec       0x10 Debug/src/stm32f30x_it.o
-                0x080001ec                NMI_Handler
+                0x08000434       0x10 Debug/src/stm32f30x_it.o
+                0x08000434                NMI_Handler
  .text.HardFault_Handler
-                0x080001fc        0x8 Debug/src/stm32f30x_it.o
-                0x080001fc                HardFault_Handler
+                0x08000444        0x8 Debug/src/stm32f30x_it.o
+                0x08000444                HardFault_Handler
  .text.MemManage_Handler
-                0x08000204        0x8 Debug/src/stm32f30x_it.o
-                0x08000204                MemManage_Handler
+                0x0800044c        0x8 Debug/src/stm32f30x_it.o
+                0x0800044c                MemManage_Handler
  .text.BusFault_Handler
-                0x0800020c        0x8 Debug/src/stm32f30x_it.o
-                0x0800020c                BusFault_Handler
+                0x08000454        0x8 Debug/src/stm32f30x_it.o
+                0x08000454                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000214        0x8 Debug/src/stm32f30x_it.o
-                0x08000214                UsageFault_Handler
+                0x0800045c        0x8 Debug/src/stm32f30x_it.o
+                0x0800045c                UsageFault_Handler
  .text.SVC_Handler
-                0x0800021c       0x10 Debug/src/stm32f30x_it.o
-                0x0800021c                SVC_Handler
+                0x08000464       0x10 Debug/src/stm32f30x_it.o
+                0x08000464                SVC_Handler
  .text.DebugMon_Handler
-                0x0800022c       0x10 Debug/src/stm32f30x_it.o
-                0x0800022c                DebugMon_Handler
+                0x08000474       0x10 Debug/src/stm32f30x_it.o
+                0x08000474                DebugMon_Handler
  .text.PendSV_Handler
-                0x0800023c       0x10 Debug/src/stm32f30x_it.o
-                0x0800023c                PendSV_Handler
+                0x08000484       0x10 Debug/src/stm32f30x_it.o
+                0x08000484                PendSV_Handler
  .text.SysTick_Handler
-                0x0800024c       0x10 Debug/src/stm32f30x_it.o
-                0x0800024c                SysTick_Handler
+                0x08000494       0x10 Debug/src/stm32f30x_it.o
+                0x08000494                SysTick_Handler
  .text.SystemInit
-                0x0800025c       0x94 Debug/src/system_stm32f30x.o
-                0x0800025c                SystemInit
+                0x080004a4       0x94 Debug/src/system_stm32f30x.o
+                0x080004a4                SystemInit
  .text.SetSysClock
-                0x080002f0       0xe4 Debug/src/system_stm32f30x.o
+                0x08000538       0xe4 Debug/src/system_stm32f30x.o
  .text.Reset_Handler
-                0x080003d4       0x44 Debug/src/startup_stm32f303xe.o
-                0x080003d4                Reset_Handler
+                0x0800061c       0x44 Debug/src/startup_stm32f303xe.o
+                0x0800061c                Reset_Handler
  .text.Default_Handler
-                0x08000418        0x2 Debug/src/startup_stm32f303xe.o
-                0x08000418                RTC_Alarm_IRQHandler
-                0x08000418                TIM8_TRG_COM_IRQHandler
-                0x08000418                TIM8_CC_IRQHandler
-                0x08000418                TIM1_CC_IRQHandler
-                0x08000418                USB_HP_IRQHandler
-                0x08000418                PVD_IRQHandler
-                0x08000418                EXTI3_IRQHandler
-                0x08000418                EXTI0_IRQHandler
-                0x08000418                I2C2_EV_IRQHandler
-                0x08000418                FPU_IRQHandler
-                0x08000418                EXTI2_TS_IRQHandler
-                0x08000418                TIM1_UP_TIM16_IRQHandler
-                0x08000418                ADC1_2_IRQHandler
-                0x08000418                SPI1_IRQHandler
-                0x08000418                TIM6_DAC_IRQHandler
-                0x08000418                TIM8_UP_IRQHandler
-                0x08000418                DMA2_Channel2_IRQHandler
-                0x08000418                DMA1_Channel4_IRQHandler
-                0x08000418                USART3_IRQHandler
-                0x08000418                DMA1_Channel7_IRQHandler
-                0x08000418                CAN1_RX1_IRQHandler
-                0x08000418                UART5_IRQHandler
-                0x08000418                ADC3_IRQHandler
-                0x08000418                TIM4_IRQHandler
-                0x08000418                DMA2_Channel1_IRQHandler
-                0x08000418                I2C1_EV_IRQHandler
-                0x08000418                DMA1_Channel6_IRQHandler
-                0x08000418                UART4_IRQHandler
-                0x08000418                DMA2_Channel4_IRQHandler
-                0x08000418                TIM3_IRQHandler
-                0x08000418                RCC_IRQHandler
-                0x08000418                DMA1_Channel1_IRQHandler
-                0x08000418                Default_Handler
-                0x08000418                USBWakeUp_RMP_IRQHandler
-                0x08000418                EXTI15_10_IRQHandler
-                0x08000418                TIM7_IRQHandler
-                0x08000418                EXTI9_5_IRQHandler
-                0x08000418                TAMPER_STAMP_IRQHandler
-                0x08000418                RTC_WKUP_IRQHandler
-                0x08000418                SPI2_IRQHandler
-                0x08000418                DMA2_Channel5_IRQHandler
-                0x08000418                DMA1_Channel5_IRQHandler
-                0x08000418                USB_LP_IRQHandler
-                0x08000418                EXTI4_IRQHandler
-                0x08000418                USB_LP_CAN1_RX0_IRQHandler
-                0x08000418                TIM1_TRG_COM_TIM17_IRQHandler
-                0x08000418                USB_HP_CAN1_TX_IRQHandler
-                0x08000418                DMA1_Channel3_IRQHandler
-                0x08000418                ADC4_IRQHandler
-                0x08000418                WWDG_IRQHandler
-                0x08000418                TIM2_IRQHandler
-                0x08000418                COMP7_IRQHandler
-                0x08000418                COMP1_2_3_IRQHandler
-                0x08000418                EXTI1_IRQHandler
-                0x08000418                USART2_IRQHandler
-                0x08000418                COMP4_5_6_IRQHandler
-                0x08000418                I2C2_ER_IRQHandler
-                0x08000418                DMA1_Channel2_IRQHandler
-                0x08000418                TIM8_BRK_IRQHandler
-                0x08000418                CAN1_SCE_IRQHandler
-                0x08000418                FLASH_IRQHandler
-                0x08000418                USART1_IRQHandler
-                0x08000418                SPI3_IRQHandler
-                0x08000418                I2C1_ER_IRQHandler
-                0x08000418                USBWakeUp_IRQHandler
-                0x08000418                DMA2_Channel3_IRQHandler
-                0x08000418                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x0800041a        0x2 
+                0x08000660        0x2 Debug/src/startup_stm32f303xe.o
+                0x08000660                RTC_Alarm_IRQHandler
+                0x08000660                TIM8_TRG_COM_IRQHandler
+                0x08000660                TIM8_CC_IRQHandler
+                0x08000660                TIM1_CC_IRQHandler
+                0x08000660                USB_HP_IRQHandler
+                0x08000660                PVD_IRQHandler
+                0x08000660                EXTI3_IRQHandler
+                0x08000660                EXTI0_IRQHandler
+                0x08000660                I2C2_EV_IRQHandler
+                0x08000660                FPU_IRQHandler
+                0x08000660                EXTI2_TS_IRQHandler
+                0x08000660                TIM1_UP_TIM16_IRQHandler
+                0x08000660                ADC1_2_IRQHandler
+                0x08000660                SPI1_IRQHandler
+                0x08000660                TIM6_DAC_IRQHandler
+                0x08000660                TIM8_UP_IRQHandler
+                0x08000660                DMA2_Channel2_IRQHandler
+                0x08000660                DMA1_Channel4_IRQHandler
+                0x08000660                USART3_IRQHandler
+                0x08000660                DMA1_Channel7_IRQHandler
+                0x08000660                CAN1_RX1_IRQHandler
+                0x08000660                UART5_IRQHandler
+                0x08000660                ADC3_IRQHandler
+                0x08000660                TIM4_IRQHandler
+                0x08000660                DMA2_Channel1_IRQHandler
+                0x08000660                I2C1_EV_IRQHandler
+                0x08000660                DMA1_Channel6_IRQHandler
+                0x08000660                UART4_IRQHandler
+                0x08000660                DMA2_Channel4_IRQHandler
+                0x08000660                TIM3_IRQHandler
+                0x08000660                RCC_IRQHandler
+                0x08000660                DMA1_Channel1_IRQHandler
+                0x08000660                Default_Handler
+                0x08000660                USBWakeUp_RMP_IRQHandler
+                0x08000660                EXTI15_10_IRQHandler
+                0x08000660                TIM7_IRQHandler
+                0x08000660                EXTI9_5_IRQHandler
+                0x08000660                TAMPER_STAMP_IRQHandler
+                0x08000660                RTC_WKUP_IRQHandler
+                0x08000660                SPI2_IRQHandler
+                0x08000660                DMA2_Channel5_IRQHandler
+                0x08000660                DMA1_Channel5_IRQHandler
+                0x08000660                USB_LP_IRQHandler
+                0x08000660                EXTI4_IRQHandler
+                0x08000660                USB_LP_CAN1_RX0_IRQHandler
+                0x08000660                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08000660                USB_HP_CAN1_TX_IRQHandler
+                0x08000660                DMA1_Channel3_IRQHandler
+                0x08000660                ADC4_IRQHandler
+                0x08000660                WWDG_IRQHandler
+                0x08000660                TIM2_IRQHandler
+                0x08000660                COMP7_IRQHandler
+                0x08000660                COMP1_2_3_IRQHandler
+                0x08000660                EXTI1_IRQHandler
+                0x08000660                USART2_IRQHandler
+                0x08000660                COMP4_5_6_IRQHandler
+                0x08000660                I2C2_ER_IRQHandler
+                0x08000660                DMA1_Channel2_IRQHandler
+                0x08000660                TIM8_BRK_IRQHandler
+                0x08000660                CAN1_SCE_IRQHandler
+                0x08000660                FLASH_IRQHandler
+                0x08000660                USART1_IRQHandler
+                0x08000660                SPI3_IRQHandler
+                0x08000660                I2C1_ER_IRQHandler
+                0x08000660                USBWakeUp_IRQHandler
+                0x08000660                DMA2_Channel3_IRQHandler
+                0x08000660                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x08000662        0x2 
  .text.startup.register_fini
-                0x0800041c       0x14 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__call_atexit.o)
- .text.atexit   0x08000430        0xc /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-atexit.o)
-                0x08000430                atexit
+                0x08000664       0x14 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08000678        0xc /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-atexit.o)
+                0x08000678                atexit
  .text.__libc_fini_array
-                0x0800043c       0x28 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-fini.o)
-                0x0800043c                __libc_fini_array
+                0x08000684       0x28 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-fini.o)
+                0x08000684                __libc_fini_array
  .text.__register_exitproc
-                0x08000464       0xa4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__atexit.o)
-                0x08000464                __register_exitproc
+                0x080006ac       0xa4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__atexit.o)
+                0x080006ac                __register_exitproc
  *(.glue_7)
- .glue_7        0x08000508        0x0 linker stubs
+ .glue_7        0x08000750        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08000508        0x0 linker stubs
+ .glue_7t       0x08000750        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08000508        0x0 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
+ .eh_frame      0x08000750        0x0 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
  *(.init)
- .init          0x08000508        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o
-                0x08000508                _init
- .init          0x0800050c        0x8 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o
+ .init          0x08000750        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o
+                0x08000750                _init
+ .init          0x08000754        0x8 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o
  *(.fini)
- .fini          0x08000514        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o
-                0x08000514                _fini
- .fini          0x08000518        0x8 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o
-                0x08000520                . = ALIGN (0x4)
-                0x08000520                _etext = .
+ .fini          0x0800075c        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o
+                0x0800075c                _fini
+ .fini          0x08000760        0x8 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o
+                0x08000768                . = ALIGN (0x4)
+                0x08000768                _etext = .
 
-.vfp11_veneer   0x08000520        0x0
- .vfp11_veneer  0x08000520        0x0 linker stubs
+.vfp11_veneer   0x08000768        0x0
+ .vfp11_veneer  0x08000768        0x0 linker stubs
 
-.v4_bx          0x08000520        0x0
- .v4_bx         0x08000520        0x0 linker stubs
+.v4_bx          0x08000768        0x0
+ .v4_bx         0x08000768        0x0 linker stubs
 
-.iplt           0x08000520        0x0
- .iplt          0x08000520        0x0 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
+.iplt           0x08000768        0x0
+ .iplt          0x08000768        0x0 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
 
-.rodata         0x08000520        0x8
-                0x08000520                . = ALIGN (0x4)
+.rodata         0x08000768        0x8
+                0x08000768                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.str1.4
-                0x08000520        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-impure.o)
+                0x08000768        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-impure.o)
                                   0x2 (size before relaxing)
  .rodata._global_impure_ptr
-                0x08000524        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-impure.o)
-                0x08000524                _global_impure_ptr
-                0x08000528                . = ALIGN (0x4)
+                0x0800076c        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-impure.o)
+                0x0800076c                _global_impure_ptr
+                0x08000770                . = ALIGN (0x4)
 
-.rel.dyn        0x08000528        0x0
- .rel.iplt      0x08000528        0x0 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
+.rel.dyn        0x08000770        0x0
+ .rel.iplt      0x08000770        0x0 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08000528        0x0
-                0x08000528                __exidx_start = .
+.ARM            0x08000770        0x0
+                0x08000770                __exidx_start = .
  *(.ARM.exidx*)
-                0x08000528                __exidx_end = .
+                0x08000770                __exidx_end = .
 
-.preinit_array  0x08000528        0x0
-                0x08000528                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x08000770        0x0
+                0x08000770                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x08000528                PROVIDE (__preinit_array_end, .)
+                0x08000770                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x08000528        0x8
-                0x08000528                PROVIDE (__init_array_start, .)
+.init_array     0x08000770        0x8
+                0x08000770                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  .init_array.00000
-                0x08000528        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__call_atexit.o)
+                0x08000770        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x0800052c        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
-                0x08000530                PROVIDE (__init_array_end, .)
+ .init_array    0x08000774        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
+                0x08000778                PROVIDE (__init_array_end, .)
 
-.fini_array     0x08000530        0x4
-                0x08000530                PROVIDE (__fini_array_start, .)
+.fini_array     0x08000778        0x4
+                0x08000778                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08000530        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
-                0x08000534                PROVIDE (__fini_array_end, .)
-                0x08000534                _sidata = LOADADDR (.data)
+ .fini_array    0x08000778        0x4 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
+                0x0800077c                PROVIDE (__fini_array_end, .)
+                0x0800077c                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x428 load address 0x08000534
+.data           0x20000000      0x428 load address 0x0800077c
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -2072,15 +2060,15 @@ LOAD /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1
                 0x20000000      0x428 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-impure.o)
                 0x20000428                . = ALIGN (0x4)
                 0x20000428                _edata = .
-                0x0800095c                _siccmram = LOADADDR (.ccmram)
+                0x08000ba4                _siccmram = LOADADDR (.ccmram)
 
-.jcr            0x20000428        0x0 load address 0x0800095c
+.jcr            0x20000428        0x0 load address 0x08000ba4
  .jcr           0x20000428        0x0 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
 
-.igot.plt       0x20000428        0x0 load address 0x0800095c
+.igot.plt       0x20000428        0x0 load address 0x08000ba4
  .igot.plt      0x20000428        0x0 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x0800095c
+.ccmram         0x10000000        0x0 load address 0x08000ba4
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _sccmram = .
  *(.ccmram)
@@ -2129,83 +2117,107 @@ LOAD /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1
  .ARM.attributes
                 0x00000022       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o
  .ARM.attributes
-                0x00000056       0x39 Debug/src/main.o
+                0x00000056       0x39 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
  .ARM.attributes
-                0x0000008f       0x39 Debug/src/stm32f30x_it.o
+                0x0000008f       0x39 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
  .ARM.attributes
-                0x000000c8       0x39 Debug/src/system_stm32f30x.o
+                0x000000c8       0x39 Debug/src/main.o
  .ARM.attributes
-                0x00000101       0x21 Debug/src/startup_stm32f303xe.o
+                0x00000101       0x39 Debug/src/stm32f30x_it.o
  .ARM.attributes
-                0x00000122       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-impure.o)
+                0x0000013a       0x39 Debug/src/system_stm32f30x.o
  .ARM.attributes
-                0x00000156       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__call_atexit.o)
+                0x00000173       0x21 Debug/src/startup_stm32f303xe.o
  .ARM.attributes
-                0x0000018a       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-atexit.o)
+                0x00000194       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x000001be       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-fini.o)
+                0x000001c8       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x000001f2       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__atexit.o)
+                0x000001fc       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-atexit.o)
  .ARM.attributes
-                0x00000226       0x22 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o
+                0x00000230       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000264       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000298       0x22 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o
 OUTPUT(Debug/stm32f3_template.elf elf32-littlearm)
 
-.debug_info     0x00000000      0x696
- .debug_info    0x00000000       0xaf Debug/src/main.o
- .debug_info    0x000000af       0xbf Debug/src/stm32f30x_it.o
- .debug_info    0x0000016e      0x4bf Debug/src/system_stm32f30x.o
- .debug_info    0x0000062d       0x69 Debug/src/startup_stm32f303xe.o
+.debug_info     0x00000000     0x1ada
+ .debug_info    0x00000000      0xb83 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_info    0x00000b83      0x628 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_info    0x000011ab      0x348 Debug/src/main.o
+ .debug_info    0x000014f3       0xbf Debug/src/stm32f30x_it.o
+ .debug_info    0x000015b2      0x4bf Debug/src/system_stm32f30x.o
+ .debug_info    0x00001a71       0x69 Debug/src/startup_stm32f303xe.o
 
-.debug_abbrev   0x00000000      0x1f0
- .debug_abbrev  0x00000000       0x69 Debug/src/main.o
- .debug_abbrev  0x00000069       0x2c Debug/src/stm32f30x_it.o
- .debug_abbrev  0x00000095      0x149 Debug/src/system_stm32f30x.o
- .debug_abbrev  0x000001de       0x12 Debug/src/startup_stm32f303xe.o
+.debug_abbrev   0x00000000      0x680
+ .debug_abbrev  0x00000000      0x1e7 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_abbrev  0x000001e7      0x1a9 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_abbrev  0x00000390      0x169 Debug/src/main.o
+ .debug_abbrev  0x000004f9       0x2c Debug/src/stm32f30x_it.o
+ .debug_abbrev  0x00000525      0x149 Debug/src/system_stm32f30x.o
+ .debug_abbrev  0x0000066e       0x12 Debug/src/startup_stm32f303xe.o
 
-.debug_aranges  0x00000000       0xd8
+.debug_aranges  0x00000000      0x2c0
  .debug_aranges
-                0x00000000       0x20 Debug/src/main.o
+                0x00000000      0x158 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
  .debug_aranges
-                0x00000020       0x60 Debug/src/stm32f30x_it.o
+                0x00000158       0x80 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
  .debug_aranges
-                0x00000080       0x30 Debug/src/system_stm32f30x.o
+                0x000001d8       0x30 Debug/src/main.o
  .debug_aranges
-                0x000000b0       0x28 Debug/src/startup_stm32f303xe.o
+                0x00000208       0x60 Debug/src/stm32f30x_it.o
+ .debug_aranges
+                0x00000268       0x30 Debug/src/system_stm32f30x.o
+ .debug_aranges
+                0x00000298       0x28 Debug/src/startup_stm32f303xe.o
 
-.debug_ranges   0x00000000       0xa0
- .debug_ranges  0x00000000       0x10 Debug/src/main.o
- .debug_ranges  0x00000010       0x50 Debug/src/stm32f30x_it.o
- .debug_ranges  0x00000060       0x20 Debug/src/system_stm32f30x.o
- .debug_ranges  0x00000080       0x20 Debug/src/startup_stm32f303xe.o
+.debug_ranges   0x00000000      0x268
+ .debug_ranges  0x00000000      0x148 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_ranges  0x00000148       0x70 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_ranges  0x000001b8       0x20 Debug/src/main.o
+ .debug_ranges  0x000001d8       0x50 Debug/src/stm32f30x_it.o
+ .debug_ranges  0x00000228       0x20 Debug/src/system_stm32f30x.o
+ .debug_ranges  0x00000248       0x20 Debug/src/startup_stm32f303xe.o
 
-.debug_line     0x00000000      0x41d
- .debug_line    0x00000000      0x10e Debug/src/main.o
- .debug_line    0x0000010e       0xda Debug/src/stm32f30x_it.o
- .debug_line    0x000001e8      0x1c0 Debug/src/system_stm32f30x.o
- .debug_line    0x000003a8       0x75 Debug/src/startup_stm32f303xe.o
+.debug_line     0x00000000      0xdaf
+ .debug_line    0x00000000      0x5e3 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_line    0x000005e3      0x303 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_line    0x000008e6      0x1ba Debug/src/main.o
+ .debug_line    0x00000aa0       0xda Debug/src/stm32f30x_it.o
+ .debug_line    0x00000b7a      0x1c0 Debug/src/system_stm32f30x.o
+ .debug_line    0x00000d3a       0x75 Debug/src/startup_stm32f303xe.o
 
-.debug_str      0x00000000      0x393
- .debug_str     0x00000000      0x15a Debug/src/main.o
-                                0x196 (size before relaxing)
- .debug_str     0x0000015a       0xa3 Debug/src/stm32f30x_it.o
+.debug_str      0x00000000      0xd3d
+ .debug_str     0x00000000      0x87b Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                                0x91e (size before relaxing)
+ .debug_str     0x0000087b      0x31e Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                                0x4fe (size before relaxing)
+ .debug_str     0x00000b99       0x35 Debug/src/main.o
+                                0x38d (size before relaxing)
+ .debug_str     0x00000bce       0xa3 Debug/src/stm32f30x_it.o
                                 0x17d (size before relaxing)
- .debug_str     0x000001fd      0x196 Debug/src/system_stm32f30x.o
+ .debug_str     0x00000c71       0xcc Debug/src/system_stm32f30x.o
                                 0x33b (size before relaxing)
 
 .comment        0x00000000       0x6e
- .comment       0x00000000       0x6e Debug/src/main.o
+ .comment       0x00000000       0x6e Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
                                  0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .comment       0x0000006e       0x6f Debug/src/main.o
  .comment       0x0000006e       0x6f Debug/src/stm32f30x_it.o
  .comment       0x0000006e       0x6f Debug/src/system_stm32f30x.o
 
-.debug_frame    0x00000000      0x28c
- .debug_frame   0x00000000       0x28 Debug/src/main.o
- .debug_frame   0x00000028      0x110 Debug/src/stm32f30x_it.o
- .debug_frame   0x00000138       0x7c Debug/src/system_stm32f30x.o
- .debug_frame   0x000001b4       0x50 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__call_atexit.o)
- .debug_frame   0x00000204       0x20 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-atexit.o)
- .debug_frame   0x00000224       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-fini.o)
- .debug_frame   0x00000258       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__atexit.o)
+.debug_frame    0x00000000      0xb28
+ .debug_frame   0x00000000      0x634 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+ .debug_frame   0x00000634      0x214 Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+ .debug_frame   0x00000848       0x7c Debug/src/main.o
+ .debug_frame   0x000008c4      0x110 Debug/src/stm32f30x_it.o
+ .debug_frame   0x000009d4       0x7c Debug/src/system_stm32f30x.o
+ .debug_frame   0x00000a50       0x50 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000aa0       0x20 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000ac0       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-fini.o)
+ .debug_frame   0x00000af4       0x34 /home/erhan/gcc-arm-none-eabi-5_4-2016q2/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-__atexit.o)
 
 Cross Reference Table
 
@@ -2376,6 +2388,8 @@ DMA_SetCurrDataCounter                            Debug/Libraries/STM32F30x_StdP
 DMA_StructInit                                    Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_dma.o
 DebugMon_Handler                                  Debug/src/stm32f30x_it.o
 Default_Handler                                   Debug/src/startup_stm32f303xe.o
+Delay_ms                                          Debug/src/main.o
+Delay_us                                          Debug/src/main.o
 EXTI0_IRQHandler                                  Debug/src/startup_stm32f303xe.o
 EXTI15_10_IRQHandler                              Debug/src/startup_stm32f303xe.o
 EXTI1_IRQHandler                                  Debug/src/startup_stm32f303xe.o
@@ -2443,6 +2457,7 @@ FMC_PCCARDStructInit                              Debug/Libraries/STM32F30x_StdP
 FPU_IRQHandler                                    Debug/src/startup_stm32f303xe.o
 GPIO_DeInit                                       Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
 GPIO_Init                                         Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                                                  Debug/src/main.o
 GPIO_PinAFConfig                                  Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
 GPIO_PinLockConfig                                Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
 GPIO_ReadInputData                                Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
@@ -2450,7 +2465,9 @@ GPIO_ReadInputDataBit                             Debug/Libraries/STM32F30x_StdP
 GPIO_ReadOutputData                               Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
 GPIO_ReadOutputDataBit                            Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
 GPIO_ResetBits                                    Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                                                  Debug/src/main.o
 GPIO_SetBits                                      Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
+                                                  Debug/src/main.o
 GPIO_StructInit                                   Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
 GPIO_Write                                        Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
 GPIO_WriteBit                                     Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
@@ -2614,6 +2631,7 @@ PWR_WakeUpPinCmd                                  Debug/Libraries/STM32F30x_StdP
 PendSV_Handler                                    Debug/src/stm32f30x_it.o
 RCC_ADCCLKConfig                                  Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
 RCC_AHBPeriphClockCmd                             Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
+                                                  Debug/src/main.o
 RCC_AHBPeriphResetCmd                             Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_rcc.o
                                                   Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_gpio.o
                                                   Debug/Libraries/STM32F30x_StdPeriph_Driver/src/stm32f30x_adc.o
